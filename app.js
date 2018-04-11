@@ -8,7 +8,7 @@ function loadJokes(){
    console.log('event heard');
    const xhr=new XMLHttpRequest();
 
-   xhr.open('GET',`http://api.icndb.com/jokes/random`,true);
+   xhr.open('GET',`https://api.icndb.com/jokes/random`,true);
     
    
    
