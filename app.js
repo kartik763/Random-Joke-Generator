@@ -10,10 +10,7 @@ function loadJokes(){
 
    xhr.open('GET',`http://api.icndb.com/jokes/random`,true);
     
-   xhr.onprogress=function(){
-
-      output.innerHTML=`Loading Something New`;
-   }
+   
    
 
 
